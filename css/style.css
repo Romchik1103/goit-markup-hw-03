@@ -8,6 +8,44 @@
 body {
   font-family: Roboto, sans-serif;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+.header-curent {
+  display: flex;
+  align-items: center;
+}
+
 .list {
   list-style: none;
 }
@@ -23,7 +61,19 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
+.header-item {
+  margin-right: 50px;
+}
+li {
+  margin-right: 50px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
 .header-studio {
   font-family: Raleway;
   font-style: normal;
@@ -62,6 +112,8 @@ body {
 /*----------------HERO--------------*/
 .hero {
   background: #2f303a;
+  padding: 200px 0;
+  text-align: center;
 }
 .hero-title {
   font-family: Roboto;
@@ -71,6 +123,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 .hero-btn {
   cursor: pointer;
@@ -84,6 +137,7 @@ body {
   color: #ffffff;
   border: 0;
   border-radius: 4px;
+  margin-top: 30px;
 }
 .title-features {
   font-style: normal;
@@ -93,6 +147,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
+}
+
+.team-section {
+  padding-bottom: 92px;
+}
+.heading {
+  margin-bottom: 50px;
 }
 .text {
   font-size: 14px;
@@ -111,13 +173,17 @@ body {
 /*--------------TEAM-------------*/
 .team {
   background: #f5f4fa;
+  padding: 92px 0;
 }
+
 .team-list {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 .list-title {
   font-weight: 500;
@@ -125,6 +191,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 .list-item {
   font-size: 16px;
@@ -132,9 +199,60 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.team-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-info {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.team-text li {
+  background: #ffffff;
+  display: inline-block;
+  max-width: 270px;
+  width: 100%;
+  margin-right: 30px;
+}
+.bla {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.lists li:last-child {
+  margin-right: 0;
+}
+.lists li {
+  margin-right: 30px;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-picture {
+  border: 1px solid #eeeeee;
+  margin: 0 15px 20px;
+}
+
+.list-picture img {
+  max-width: 370px;
+  width: 100%;
+}
+
+.list-picture-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -30px;
+}
 /*---------------FOOTER----------*/
 .footer {
   background: #2f303a;
+  padding: 60px;
 }
 .footer-logo {
   font-family: Raleway;
@@ -162,6 +280,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-bottom: 9px;
 }
 .footer-mail {
   font-family: Roboto;
@@ -189,6 +308,12 @@ body {
 .footer-link:focus {
   color: #2196f3;
 }
+.footer-list {
+  margin-top: 20px;
+}
+.footer-list li {
+  margin-bottom: 9px;
+}
 /*---------------PORTFOLIO--------*/
 .list-btn {
   border: 0;
@@ -200,7 +325,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .list-btn:hover,
@@ -214,6 +338,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .subtitle {
   font-weight: normal;
@@ -221,4 +348,20 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.profile-list li {
+  margin-right: 8px;
+}
+.profile-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.section-list {
+  padding: 94px 0;
 }
