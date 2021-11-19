@@ -28,24 +28,31 @@ ul {
   width: 100%;
   margin: 0 auto;
 }
-.header-wrap {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
+.header {
+  border-bottom: inset;
+  color: #ececec;
 }
 .header-navigation {
   display: flex;
   align-items: center;
 }
+
 .header-list {
   display: flex;
+  margin-right: 331px;
+}
+.header-list li {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .header-curent {
   display: flex;
   align-items: center;
 }
-
+.header-curent li {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 .list {
   list-style: none;
 }
@@ -62,6 +69,8 @@ ul {
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .header-item {
   margin-right: 50px;
@@ -124,6 +133,7 @@ li:last-child {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
+  width: 698px;
 }
 .hero-btn {
   cursor: pointer;
@@ -137,7 +147,7 @@ li:last-child {
   color: #ffffff;
   border: 0;
   border-radius: 4px;
-  margin-top: 30px;
+  width: 200px;
 }
 .title-features {
   font-style: normal;
@@ -149,7 +159,10 @@ li:last-child {
   color: #212121;
   margin-bottom: 10px;
 }
-
+.lists .text-list {
+  width: 270px;
+  height: 101px;
+}
 .team-section {
   padding-bottom: 92px;
 }
@@ -185,6 +198,7 @@ li:last-child {
   color: #212121;
   margin-bottom: 50px;
 }
+
 .list-title {
   font-weight: 500;
   font-size: 16px;
@@ -216,7 +230,7 @@ li:last-child {
   width: 100%;
   margin-right: 30px;
 }
-.bla {
+.features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -327,6 +341,7 @@ li:last-child {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .list-btn:hover,
 .list-btn:focus {
   color: #ffffff;
