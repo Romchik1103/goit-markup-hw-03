@@ -29,7 +29,6 @@ ul {
 }
 .container {
   max-width: 1200px;
-  width: 100%;
   margin: 0 auto;
 }
 .header {
@@ -47,8 +46,6 @@ ul {
 .header-curent {
   display: inline-flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .list {
@@ -105,7 +102,9 @@ ul {
 .header-link.current {
   color: #2196f3;
 }
-
+.header-curent li:last-child {
+  margin: 0;
+}
 .text-item {
   font-family: Roboto;
   font-weight: 500;
@@ -113,8 +112,11 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.header-items {
   margin-right: 50px;
 }
 /*----------------HERO--------------*/
@@ -146,7 +148,10 @@ ul {
   color: #ffffff;
   border: 0;
   border-radius: 4px;
-  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .title-features {
   font-style: normal;
@@ -160,7 +165,6 @@ ul {
 }
 .text-list li {
   width: 270px;
-  height: 101px;
 }
 .team-section {
   padding-bottom: 92px;
@@ -214,7 +218,7 @@ ul {
 }
 .team-text {
   display: flex;
-  justify-content: space-between;
+  padding: 0 15px;
 }
 .team-text li:last-child {
   margin-right: 0;
@@ -250,7 +254,7 @@ ul {
 
 .lists {
   display: flex;
-  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .portfolio-item {
